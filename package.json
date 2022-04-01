@@ -1,6 +1,6 @@
 {
   "homepage": "http://fergorgs.github.io/personal-page",
-  "name": "personal-website",
+  "name": "personal-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
