@@ -1,0 +1,30 @@
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #222222;
+    height: 5em;
+}
+
+#footer #contact-info-item {
+    margin-left: 2em;
+    margin-bottom: 0em;
+    cursor: pointer;
+}
+
+#footer #contact-info-item-left-most {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#footer #contact-info-item-text {
+    color: white;
+    margin-left: 0.5em;
+}
+
+#footer a {
+    margin-top: 1.7em
+}

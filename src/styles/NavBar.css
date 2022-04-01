@@ -1,0 +1,35 @@
+#nav-bar nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #222222;
+    
+}
+
+.nav-bar-button {
+
+    background-color: #222222;
+    width: 12em;
+    cursor: pointer;
+    
+}
+
+.nav-bar-button:hover{
+    background-color: #333333;
+}
+
+.nav-bar-button:active{
+    background-color: #111111;
+}
+
+.nav-bar-button p {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: 'none' !important;
+}
+
+#nav-bar-container .vl {
+    border-left: 2px solid black;
+    margin: 0
+  }

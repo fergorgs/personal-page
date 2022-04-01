@@ -1,0 +1,40 @@
+
+.project-card {
+    background-color: #eeeeee;
+    width: 50em;
+    margin: 0.9em 0em;
+    padding-bottom: 1.5em;
+    border-bottom: 2px solid gray;
+}
+
+.project-card-title {
+    font-size: 2em;
+    color: #2079c7;;
+    font-weight: bold;
+    padding: 0.4em 0.8em;
+}
+
+.project-card-tag {
+    width: fit-content;
+    border-radius: 20px;
+    padding: 0.5em 0.5em;
+    border: 1px solid darkslategrey;
+    color: gray;
+    margin-right: 0.5em;
+}
+
+.project-card-tags-strip {
+    display: flex;
+    margin: 1em 1em
+}
+
+.project-card-description {
+    margin: 1em 1em;
+    color: gray;
+    text-align: justify;
+}
+
+.project-card .about-button {
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}

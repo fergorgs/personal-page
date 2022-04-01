@@ -1,0 +1,20 @@
+
+
+h3 {
+    color: darkslategrey;
+}
+
+p {
+    color: grey;
+    text-align: justify;
+}
+
+.item-container {
+    margin-top: -0.7em;
+    margin-left: 1em;
+    display: flex;
+}
+
+.description{
+    margin-left: 1em;
+}

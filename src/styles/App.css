@@ -1,0 +1,50 @@
+
+.sub-page-title-section{
+
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 196, 0);
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    padding-right: 22em;
+    align-items: center;
+    height: 185px;
+}
+
+.about-button {
+
+    display: flex;
+    align-items: center;
+    height: 2.5em;
+    width: 15em;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+    border: 2px solid grey;
+    padding-left: 0.7em;
+    color: darkslategrey;
+    cursor: pointer;
+}
+
+.about-button:hover {
+    background-color: lightgray;
+}
+
+.about-button:active{
+    background-color: gray;
+}
+
+.about-button h4 {
+    margin-left: 0.5em;
+}
+
+.long-button {
+    width: 20em
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0.5em 0em;
+}
