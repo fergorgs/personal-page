@@ -4,7 +4,7 @@ import MobileApp from './mobile/MobileApp'
 
 function App() {
 
-  const isMobile = navigator.userAgentData.mobile;
+  const isMobile = true//navigator.userAgentData.mobile;
 
   if(isMobile)
     return(<MobileApp/>);

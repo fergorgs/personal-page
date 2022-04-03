@@ -14,7 +14,7 @@ function HomeScreen(){
         <div>
             <div id="title-section">
                 <div id="name-title-container" data-aos="fade-left">
-                    <h1>Hey there! I'm Fernando</h1>
+                    <h1>ey there! I'm Fernando</h1>
                     <h3>Computer Science student at University of São Paulo (USP)</h3>
                 </div>
                 <div id="profile-img-container" data-aos="fade">
