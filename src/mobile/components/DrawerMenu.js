@@ -54,11 +54,20 @@ function DrawerMenu(props){
 
         if(button.icon)
             return(
-                <DrawerButton icon={button.icon} text={button.text} toPath={button.toPath}/>
+                <DrawerButton 
+                    icon={button.icon} 
+                    text={button.text} 
+                    toPath={button.toPath}
+                    toggle={() => {toggle(visible, setVisible, setToggling, leftMargin, setLeftMargin);}}
+                />
             );
         else
             return(
-                <DrawerButton text={button.text} toPath={button.toPath}/>
+                <DrawerButton 
+                    text={button.text} 
+                    toPath={button.toPath}
+                    toggle={() => {toggle(visible, setVisible, setToggling, leftMargin, setLeftMargin);}}
+                />
             );
     })
 
@@ -103,7 +112,15 @@ function DrawerButton(props){
 
     return(
         <nav>
-            <Link to={props.toPath} style={{textDecoration: 'none'}}>
+            <Link 
+                to={props.toPath} 
+                style={{textDecoration: 'none'}} 
+                onClick={
+                    () => {
+                        props.toggle();
+                    }
+                }
+            >
                 <div className="drawer-button">
                     {buttonIcon}
                     <h4>{props.text}</h4>
