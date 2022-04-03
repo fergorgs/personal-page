@@ -1,14 +1,11 @@
 
-#backdrop-img {
-
+#mobile-backdrop-img {
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
     background-color: #04010a;
-    background-image: url("../assets/code_bg.jpg");
+    background-image: url("../../assets/mobile_code_bg.jpg");
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center top;
+    background-position: left top;
     z-index: -10;
 }

@@ -4,11 +4,11 @@ import ExperienceSection from '../../components/ExperienceSection'
 import CoraaDescription from './workDescriptions/CoraaDescription'
 import ProjectEduDescription from './workDescriptions/ProjectEduDescription'
 import EsportizandoDescription from './workDescriptions/EsportizandoDescription'
-import coraaImg from '../../assets/speech_recog.png'
-import projectedu from '../../assets/projectedu.png'
-import esportizando from '../../assets/esportizando.png'
+import coraaImg from '../../../assets/speech_recog.png'
+import projectedu from '../../../assets/projectedu.png'
+import esportizando from '../../../assets/esportizando.png'
 import "aos/dist/aos.css";
-import "../../styles/App.css"
+import "../../../global_styles/App.css"
 
 function WorksScreen(){
 

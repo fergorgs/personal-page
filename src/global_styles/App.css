@@ -1,4 +1,8 @@
 
+/* #app {
+    width: fit-content;
+} */
+
 .sub-page-title-section{
 
     display: flex;
@@ -47,4 +51,37 @@
     width: 100%;
     align-items: center;
     margin: 0.5em 0em;
+}
+
+
+
+
+.mobile-about-button {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 2.5em;
+    width: 10em;
+    margin-top: 1.5em;
+    border: 2px solid grey;
+    color: darkslategrey;
+    cursor: pointer;
+}
+
+.mobile-about-button:hover {
+    background-color: lightgray;
+}
+
+.mobile-about-button:active{
+    background-color: gray;
+}
+
+.mobile-about-button h4 {
+    margin-left: 0.5em;
+}
+
+.mobile-long-button {
+    width: 20em
 }

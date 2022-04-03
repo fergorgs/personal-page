@@ -1,0 +1,28 @@
+
+#mobile-footer {
+    justify-content: center;
+    background-color: #222222;
+    height: 6em;
+    font-size: 1.2em
+}
+
+#mobile-footer #contact-label {
+    margin-top: 0.7em;
+    margin-bottom: -1em;
+    color: white;
+}
+
+#mobile-footer #contact-info-item {
+    margin: 1em 0.6em;
+}
+
+#mobile-footer #contact-info-item-text {
+    color: white;
+    margin-left: 0.5em;
+}
+
+#mobile-contact-links-strip {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

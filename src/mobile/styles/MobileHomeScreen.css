@@ -1,0 +1,65 @@
+.centering-container {
+
+    width: 100%;
+    text-align: center;
+}
+
+#mobile-title-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#mobile-profile-img-container {
+    border-radius: 10em;
+}
+
+#mobile-profile-img {
+    border-radius: 50em;
+    width: 17em;
+    height: 17em;
+    margin-top: 3em
+}
+
+#mobile-name-title-container {
+
+    width: 100%;
+    text-align: center;
+}
+
+#mobile-name-title-container h1 {
+
+    color: rgb(255, 196, 0);
+    font-size: 2.5em;
+}
+
+#mobile-name-title-container h3 {
+    padding: 0em 2em;
+    color: #ffffff;
+}
+
+#mobile-about-section {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    font-size: 1.7em;
+}
+
+#mobile-about-section p {
+    text-align: left;
+}
+
+#mobile-about-section h2 {
+    color: darkslategrey;
+    text-align: left;
+}
+  
+.mobile-hl {
+    display: inline-block;
+    border-top: 2px solid gray;
+    width: 20em;
+  }
