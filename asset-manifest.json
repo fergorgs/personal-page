@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-page/static/css/main.a9228bf7.css",
-    "main.js": "/personal-page/static/js/main.3ecfb145.js",
+    "main.css": "/personal-page/static/css/main.08d8d2b8.css",
+    "main.js": "/personal-page/static/js/main.4c842991.js",
     "static/js/787.c0841a6b.chunk.js": "/personal-page/static/js/787.c0841a6b.chunk.js",
     "static/media/speech_recog.png": "/personal-page/static/media/speech_recog.dccdaa43a9bf7988bdda.png",
     "static/media/mobile_code_bg.jpg": "/personal-page/static/media/mobile_code_bg.e8f7c270f9508f588c5c.jpg",
@@ -9,12 +9,12 @@
     "static/media/code_bg.jpg": "/personal-page/static/media/code_bg.ac32542e13a57086e52c.jpg",
     "static/media/esportizando.png": "/personal-page/static/media/esportizando.0c86d5d6d64e6ce3eec5.png",
     "index.html": "/personal-page/index.html",
-    "main.a9228bf7.css.map": "/personal-page/static/css/main.a9228bf7.css.map",
-    "main.3ecfb145.js.map": "/personal-page/static/js/main.3ecfb145.js.map",
+    "main.08d8d2b8.css.map": "/personal-page/static/css/main.08d8d2b8.css.map",
+    "main.4c842991.js.map": "/personal-page/static/js/main.4c842991.js.map",
     "787.c0841a6b.chunk.js.map": "/personal-page/static/js/787.c0841a6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9228bf7.css",
-    "static/js/main.3ecfb145.js"
+    "static/css/main.08d8d2b8.css",
+    "static/js/main.4c842991.js"
   ]
 }
