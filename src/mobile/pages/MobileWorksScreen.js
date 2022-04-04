@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import Aos from "aos";
-import MobileExperienceSection from '../../components/MobileExperienceSection'
-import MobileExperienceDescription from '../../components/MobileExperienceDescription'
-import coraaImg from '../../../assets/speech_recog.png'
-import projecteduImg from '../../../assets/projectedu.png'
-import esportizandoImg from '../../../assets/esportizando.png'
+import MobileExperienceSection from '../components/MobileExperienceSection'
+import MobileExperienceDescription from '../components/MobileExperienceDescription'
+import coraaImg from '../../assets/speech_recog.png'
+import projecteduImg from '../../assets/projectedu.png'
+import esportizandoImg from '../../assets/esportizando.png'
 import "aos/dist/aos.css";
-import "../../../global_styles/App.css"
+import "../../global_styles/App.css"
 
 function MobileWorksScreen(){
 

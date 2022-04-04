@@ -22,7 +22,8 @@
 .mobile-experience-description  p {
     color: grey;
     text-align: left;
-    margin-top: -0.5em
+    margin-top: -0.5em;
+    font-size: 0.9em
 }
 
 .experience-description-item-container {
@@ -44,5 +45,6 @@
 }
 
 .mobile-experience-links h4{
-    margin-top: 1.4em
+    margin-top: 1.5em;
+    font-size: 0.9em;
 }

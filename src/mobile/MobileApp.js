@@ -6,7 +6,9 @@ import {
   Navigate,
 } from "react-router-dom";
 import MobileHomeScreen from './pages/MobileHomeScreen'
-import MobileWorksScreen from './pages/MobileWorkScreen/MobileWorksScreen'
+import MobileWorksScreen from './pages/MobileWorksScreen'
+import MobileProjectsScreen from './pages/MobileProjectsScreen'
+import MobileContactScreen from './pages/MobileContactScreen'
 import MobileBackDropImage from './components/MobileBackDropImage'
 import MobileNavBar from './components/MobileNavBar'
 import MobileFooter from './components/MobileFooter'
@@ -21,8 +23,8 @@ function MobileApp(){
           <SlideRoutes duration={500}>
             <Route index element={<MobileHomeScreen/>} />
             <Route path="work" element={<MobileWorksScreen/>}/>
-            {/* <Route path="projects" element={<ProjectsScreen/>}/> */}
-            {/* <Route path="contact" element={<ContactScreen/>}/> */}
+            <Route path="projects" element={<MobileProjectsScreen/>}/>
+            <Route path="contact" element={<MobileContactScreen/>}/>
             <Route path="*" element={<Navigate to="/" replace />}/>
           </SlideRoutes>
           <MobileFooter/>

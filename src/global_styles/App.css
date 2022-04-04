@@ -69,7 +69,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 2.5em;
+    height: 2em;
     width: 10em;
     margin-top: 1.5em;
     border: 2px solid grey;
@@ -90,7 +90,7 @@
 }
 
 .mobile-long-button {
-    width: 15em;
+    width: 100%;
 }
 
 .mobile-long-button h4 {
