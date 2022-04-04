@@ -25,7 +25,7 @@ function MobileProjectCard(props){
                 {tagList}
             </div>
             <p>{props.text}</p>
-            <div className="about-button" onClick={() => {window.location.href = props.toPath; }}>
+            <div className="mobile-about-button mobile-long-button" onClick={() => {window.location.href = props.toPath; }}>
                 <h4>Go to Github...</h4>
             </div>
         </div>
