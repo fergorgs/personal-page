@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { FaEnvelope, FaLinkedin,FaGithub } from "react-icons/fa";
 import '../styles/ContactScreen.css'
+import profileImg from '../../assets/profile_img.jpeg'
 
 function ContactScreen(){
 
@@ -18,7 +19,7 @@ function ContactScreen(){
             <div className="list" data-aos="fade-up">
                 <div id="contact-screen-photo-strip">
                     <div id="profile-img-container">
-                        <img id="profile-img" src="https://media-exp1.licdn.com/dms/image/C4D03AQG1nkpPVPZunw/profile-displayphoto-shrink_800_800/0/1631645863743?e=1654128000&v=beta&t=YEtZdNocgTBMCgbIQTMxgdwwIvNOdAvO5LjLqdm1uvA"></img>
+                        <img id="profile-img" src={profileImg}></img>
                     </div>
                     <div id="contact-screen-text-container">
                         <div id="contact-screen-text">

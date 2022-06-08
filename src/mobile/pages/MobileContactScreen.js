@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { FaEnvelope, FaLinkedin,FaGithub } from "react-icons/fa";
 import '../styles/MobileContactScreen.css'
+import profileImg from '../../assets/profile_img.jpeg'
 
 function MobileContactScreen(){
 
@@ -16,7 +17,7 @@ function MobileContactScreen(){
                 <h1>Contact</h1>
             </div>
             <div className="list" data-aos="fade-up">
-                <img id="mobile-contact-screen-profile-img" src="https://media-exp1.licdn.com/dms/image/C4D03AQG1nkpPVPZunw/profile-displayphoto-shrink_800_800/0/1631645863743?e=1654128000&v=beta&t=YEtZdNocgTBMCgbIQTMxgdwwIvNOdAvO5LjLqdm1uvA"/>
+                <img id="mobile-contact-screen-profile-img" src={profileImg}/>
                 <div id="mobile-about-section" data-aos="fade-up">
                     <p>
                         I currently live in São Carlos, Brazil. You can contact me via email or Linkedin.

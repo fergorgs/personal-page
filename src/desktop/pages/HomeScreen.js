@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from "aos";
 import PreviewCard from "../components/PreviewCard"
+import profileImg from '../../assets/profile_img.jpeg'
 import "aos/dist/aos.css";
 import '../styles/HomeScreen.css'
 
@@ -18,7 +19,7 @@ function HomeScreen(){
                     <h3>Computer Science student at University of São Paulo (USP)</h3>
                 </div>
                 <div id="profile-img-container" data-aos="fade">
-                    <img id="profile-img" src="https://media-exp1.licdn.com/dms/image/C4D03AQG1nkpPVPZunw/profile-displayphoto-shrink_800_800/0/1631645863743?e=1654128000&v=beta&t=YEtZdNocgTBMCgbIQTMxgdwwIvNOdAvO5LjLqdm1uvA"/>
+                    <img id="profile-img" src={profileImg}/>
                 </div>
             </div>
             <div class="centering-container">

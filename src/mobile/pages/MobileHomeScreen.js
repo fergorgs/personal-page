@@ -3,6 +3,7 @@ import Aos from "aos";
 import MoviePreviewCard from "../components/MobilePreviewCard"
 import "aos/dist/aos.css";
 import '../styles/MobileHomeScreen.css'
+import profileImg from '../../assets/profile_img.jpeg'
 
 function MobileHomeScreen(){
 
@@ -14,7 +15,7 @@ function MobileHomeScreen(){
         <div>
             <div id="mobile-title-section">
                 <div id="mobile-profile-img-container" data-aos="fade">
-                    <img id="mobile-profile-img" src="https://media-exp1.licdn.com/dms/image/C4D03AQG1nkpPVPZunw/profile-displayphoto-shrink_800_800/0/1631645863743?e=1654128000&v=beta&t=YEtZdNocgTBMCgbIQTMxgdwwIvNOdAvO5LjLqdm1uvA"/>
+                    <img id="mobile-profile-img" src={profileImg}/>
                 </div>
                 <div id="mobile-name-title-container" data-aos="fade-left">
                     <h1>Hey there! I'm Fernando</h1>
