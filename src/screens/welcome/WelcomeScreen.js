@@ -14,7 +14,7 @@ function WelcomeScreen() {
 
     useEffect(() => {
         Aos.init({duration: 2000, once: true});
-        fetch('/content_data/welcome_screen.json')
+        fetch('https://raw.githubusercontent.com/fergorgs/personal-page/refs/heads/main/public/content_data/welcome_screen.json')
             .then(res => res.json())
             .then(data => {
                 setHeroItems(data.heroItems)

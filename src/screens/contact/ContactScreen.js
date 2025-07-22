@@ -11,7 +11,7 @@ function ContactScreen() {
 
     useEffect(() => {
         Aos.init({duration: 2000, once: true});
-        fetch('/content_data/contact_screen.json')
+        fetch('https://raw.githubusercontent.com/fergorgs/personal-page/refs/heads/main/public/content_data/contact_screen.json')
             .then(res => res.json())
             .then(data => {
                 setContactInfo(data)
