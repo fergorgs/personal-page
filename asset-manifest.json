@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-page/static/css/main.dd326ea7.css",
-    "main.js": "/personal-page/static/js/main.ad33add9.js",
-    "static/media/profile_img.jpeg": "/personal-page/static/media/profile_img.44d80377ad6ab6a5f838.jpeg",
-    "static/media/amazon_intern_work_item.png": "/personal-page/static/media/amazon_intern_work_item.3c35f9e6d462a023eadf.png",
-    "static/media/code_bg.jpg": "/personal-page/static/media/code_bg.ac32542e13a57086e52c.jpg",
-    "index.html": "/personal-page/index.html",
-    "main.dd326ea7.css.map": "/personal-page/static/css/main.dd326ea7.css.map",
-    "main.ad33add9.js.map": "/personal-page/static/js/main.ad33add9.js.map"
+    "main.css": "/static/css/main.46b59cb9.css",
+    "main.js": "/static/js/main.9e47f8f2.js",
+    "static/media/profile_img.jpeg": "/static/media/profile_img.44d80377ad6ab6a5f838.jpeg",
+    "static/media/amazon_intern_work_item.png": "/static/media/amazon_intern_work_item.3c35f9e6d462a023eadf.png",
+    "static/media/code_bg.jpg": "/static/media/code_bg.ac32542e13a57086e52c.jpg",
+    "index.html": "/index.html",
+    "main.46b59cb9.css.map": "/static/css/main.46b59cb9.css.map",
+    "main.9e47f8f2.js.map": "/static/js/main.9e47f8f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd326ea7.css",
-    "static/js/main.ad33add9.js"
+    "static/css/main.46b59cb9.css",
+    "static/js/main.9e47f8f2.js"
   ]
 }
