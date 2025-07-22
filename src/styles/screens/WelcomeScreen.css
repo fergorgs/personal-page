@@ -1,0 +1,59 @@
+
+#title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding: 2em 0em;
+    background-image: url('../../assets/code_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile-img-container {
+    margin: 0em 2em;
+}
+
+.profile-img {
+    border-radius: 2em;
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+    object-position: center 20%;  /* move image up (shows more of bottom) */
+}
+
+#name-title-container {
+
+    margin: 2em;
+
+}
+
+#name-title-container h1 {
+
+    color: #ffc400;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+#name-title-container h3 {
+
+    color: #ffffff;
+    margin-bottom: 0.7em;
+}
+
+@media (max-width: 768px) {
+    #title-section {
+        display: block;
+        background-position: left;
+        text-align: center;
+    }
+
+    #profile-img {
+        aspect-ratio: 1 / 1;
+        border-radius: 2em;
+        max-width: 15em;
+        max-height: 15em;
+        object-fit: cover;
+        object-position: center 20%;  /* move image up (shows more of bottom) */
+    }
+}

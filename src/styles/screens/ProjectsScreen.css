@@ -1,0 +1,30 @@
+#projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0em;
+    /* background-color: #eeeeee; */
+}
+
+.project-item-container {
+    padding: 5em 0em 0em;
+    width: 30%;
+    min-width: 500px;
+}
+
+
+.project-item-container .item-description-container {
+    margin-bottom: 5em;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .project-item-container {
+        padding-right: 0em;
+        margin-right: 0em;
+        padding: 0em 0em 0em;
+        width: 80%;
+        min-width: 10px;
+    }
+}

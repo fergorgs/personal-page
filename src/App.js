@@ -1,23 +1,23 @@
-import React, { useState } from 'react';
-import DesktopApp from './desktop/DesktopApp'
-import MobileApp from './mobile/MobileApp'
+import './styles/App.css'
+import WelcomeScreen from './screens/welcome/WelcomeScreen';
+import WorkScreen from './screens/work/WorkScreen';
+import ProjectsScreen from './screens/projects/ProjectsScreen';
+import ContactScreen from './screens/contact/ContactScreen';
+import NavBar from './screens/common/NavBar';
+import Footer from './screens/common/Footer';
 
 function App() {
 
-  const isMobile = navigator.userAgentData.mobile;
-
-  if(isMobile)
-    return(<MobileApp/>);
-  
-  else
-    return(<DesktopApp/>);
-}
-
-function TempScreen(props){
-
   return (
-    <h1>This is the {props.title}</h1>
-  )
+    <div>
+      <NavBar />
+      <WelcomeScreen/>
+      <WorkScreen />
+      <ProjectsScreen />
+      <ContactScreen />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

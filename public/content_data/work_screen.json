@@ -1,0 +1,84 @@
+{
+  "workItems": [
+    {
+        "job_title": "Software Dev Engineer I",
+        "company": "Amazon",
+        "location": "São Paulo, Brazil",
+        "duration": "(2 years) Aug. 2023",
+        "image_url": "../../assets/profile_img.jpeg",
+        "technologies": [
+            {
+                "text": "Java",
+                "style": "PLAIN"
+            },
+            {
+                "text": "Kotlin",
+                "style": "PLAIN"
+            },
+            {
+                "text": "Python",
+                "style": "PLAIN"
+            },
+            {
+                "text": "AWS",
+                "style": "PLAIN"
+            },
+            {
+                "text": "TypeScript",
+                "style": "PLAIN"
+            }
+        ],
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "bullet_points": [
+            "bullet 1",
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+        ],
+        "relevant_links": [
+            {
+                "text": "link text 1",
+                "url": "link url"
+            },
+            {
+                "text": "link text 1",
+                "url": "link url"
+            }
+        ]
+    },
+    {
+        "job_title": "Software Engineer Intern",
+        "company": "Amazon",
+        "location": "São Paulo, Brazil",
+        "duration": "(1 years) Aug. 2022 - Jul. 2023",
+        "image_url": "../../assets/profile_img.jpeg",
+        "technologies": [
+            {
+                "text": "Kotlin",
+                "style": "PLAIN"
+            },
+            {
+                "text": "AWS",
+                "style": "PLAIN"
+            },
+            {
+                "text": "TypeScript",
+                "style": "PLAIN"
+            }
+        ],
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "bullet_points": [
+            "bullet 1",
+            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+        ],
+        "relevant_links": [
+            {
+                "text": "link text 1",
+                "url": "link url"
+            },
+            {
+                "text": "link text 1",
+                "url": "link url"
+            }
+        ]
+    }
+  ]
+}
