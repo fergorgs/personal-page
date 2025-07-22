@@ -1,0 +1,15 @@
+{
+    "contactParagraph": "I currently live in São Paulo, Brazil. You can contact me via email or Linkedin. Check out my Github also!",
+    "linkedIn": {
+        "text": "Linkedin: linkedin.com/in/fernando-fayet/",
+        "link": "https://www.linkedin.com/in/fernando-fayet/"
+    },
+    "github": {
+        "text": "Github: github.com/fergorgs",
+        "link": "https://github.com/fergorgs"
+    },
+    "email": {
+        "text": "Email: fer.fayet@gmail.com",
+        "link": "fer.fayet@gmail.com"
+    }
+}
