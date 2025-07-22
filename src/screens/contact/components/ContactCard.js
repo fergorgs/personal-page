@@ -22,9 +22,9 @@ function ContactCard({ contactInfo }) {
                 </div>
             </div>
             <div id="contact-links-container">
-                <ContactLink icon={linkedInIcon} text={linkedInInfo.text} href={linkedInInfo.link}/>
-                <ContactLink icon={githubIcon} text={githubInfo.text} href={githubInfo.link}/>
-                <ContactLink icon={emailIcon} text={emailInfo.text} href={emailInfo.link}/>
+                <ContactLink icon={linkedInIcon} text="Linkedin: linkedin.com/in/fernando-fayet/" href="https://www.linkedin.com/in/fernando-fayet/"/>
+                <ContactLink icon={githubIcon} text="Github: github.com/fergorgs" href="https://github.com/fergorgs"/>
+                <ContactLink icon={emailIcon} text="Email: fer.fayet@gmail.com" href="fer.fayet@gmail.com"/>
             </div>
         </div>
     );

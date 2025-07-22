@@ -5,7 +5,7 @@
         "company": "Amazon",
         "location": "São Paulo, Brazil",
         "duration": "(2 years) Aug. 2023",
-        "image_url": "../../assets/profile_img.jpeg",
+        "image_url": "https://raw.githubusercontent.com/fergorgs/personal-page/refs/heads/main/src/assets/amazon_work_item.jpg",
         "technologies": [
             {
                 "text": "Java",
@@ -49,7 +49,7 @@
         "company": "Amazon",
         "location": "São Paulo, Brazil",
         "duration": "(1 years) Aug. 2022 - Jul. 2023",
-        "image_url": "../../assets/profile_img.jpeg",
+        "image_url": "https://raw.githubusercontent.com/fergorgs/personal-page/refs/heads/main/src/assets/amazon_intern_work_item.png",
         "technologies": [
             {
                 "text": "Kotlin",

@@ -24,13 +24,13 @@ function WorkItem({ item, orientation }) {
                 </div>
                 <DivisionLine orientation="VERTICAL" lineStyle="solid" color="gray" lineWidthInPixels="2px"/>
                 <div class="work-img-container work-img-left">
-                    <Picture containerCssClass={"work-img"} image={amazonImg}/>
+                    <Picture containerCssClass={"work-img"} image={item.image_url}/>
                 </div>
                 </>
             ) : orientation === ORIENTATION.LEFT ? (
                 <>
                 <div class="work-img-container work-img-right">
-                    <Picture containerCssClass={"work-img"} image={amazonImg}/>
+                    <Picture containerCssClass={"work-img"} image={item.image_url}/>
                 </div>
                 <DivisionLine orientation="VERTICAL" lineStyle="solid" color="gray" lineWidthInPixels="2px"/>
                 <div class="item-description-container item-left">
@@ -48,7 +48,7 @@ function WorkItem({ item, orientation }) {
             ) : (
                 <>
                     <div class="work-img-container work-img-right">
-                        <Picture containerCssClass={"work-img"} image={amazonImg}/>
+                        <Picture containerCssClass={"work-img"} image={item.image_url}/>
                     </div>
                     <div class="item-description-container item-left">
                         <ItemDescription 
