@@ -19,7 +19,7 @@ function ContactScreen() {
     }, []);
 
     return (
-        <div id="contact-section" class="light-theme">
+        <div id="contact-section" class="dark-theme">
             <ScreenTitle text="Contact"/>
             <div data-aos="fade-up">
                 <ContactCard contactInfo={contactInfo}/>

@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     padding: 2em 0em;
-    color: gray;
 }
 
 #photo-strip {
@@ -19,6 +18,15 @@
     text-align: justify;
 }
 
+.light-theme #contact-card-paragraph-container {
+    color: gray;
+}
+
+.dark-theme #contact-card-paragraph-container {
+    color: #F1F8F7;
+}
+
+
 .contact-img {
     border-radius: 2em;
     width: 10em;
@@ -29,6 +37,14 @@
 
 #contact-links-container {
     margin-top: 3em;
+}
+
+.light-theme #contact-links-container {
+    color: gray;
+}
+
+.dark-theme #contact-links-container {
+    color: #F1F8F7;
 }
 
 .contact-link-container {

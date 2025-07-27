@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import '../../../styles/screens/WorkScreen.css'
 import ItemDescription from '../../common/ItemDescription';
 import DivisionLine from '../../common/DivisionLine';
 import Aos from "aos";

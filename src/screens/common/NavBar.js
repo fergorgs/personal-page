@@ -50,6 +50,7 @@ function NavBar(props){
                     <button onClick={() => scrollToSection('title-section')}>Home</button>
                     <button onClick={() => scrollToSection('work-section')}>Work</button>
                     <button onClick={() => scrollToSection('projects-section')}>Projects</button>
+                    <button onClick={() => scrollToSection('education-section')}>Education</button>
                     <button onClick={() => scrollToSection('contact-section')}>Contact</button>
                 </nav>
             </div>
