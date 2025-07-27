@@ -1,0 +1,22 @@
+{
+  "educationItems": [
+        {
+            "university": "University of São Paulo (USP)",
+            "image_url": "https://raw.githubusercontent.com/fergorgs/personal-page/refs/heads/main/src/assets/amazon_work_item.jpg",
+            "qualifications": [
+                {
+                    "title": "Bachelor of Computer Science",
+                    "duration": "2018 - 2023",
+                    "bullet_points": [
+                        "GPA: 3.5 (8.7/10)",
+                        "Emphasis on Advanced Programming Techniques"
+                    ]
+                },
+                {
+                    "title": "MBA in Software Engineering",
+                    "duration": "2024 - 2025 (ongoing)"
+                }
+            ]
+        }
+    ]
+}
