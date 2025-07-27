@@ -84,6 +84,8 @@ body {
 
 .item-description-tech-row {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.7em;
     margin: 0.7em 0em
 }
 
