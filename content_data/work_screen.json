@@ -28,20 +28,11 @@
                 "style": "PLAIN"
             }
         ],
-        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "overview": "I’ve spent the last two years working as a Software Engineer at Amazon, where I focused on building integrations with government APIs to enable eInvoicing and ensure compliance with tax regulations across the many countries where Amazon operates. During this time, I led and contributed to several impactful projects:",
         "bullet_points": [
-            "bullet 1",
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
-        ],
-        "relevant_links": [
-            {
-                "text": "link text 1",
-                "url": "link url"
-            },
-            {
-                "text": "link text 1",
-                "url": "link url"
-            }
+            "Project Lead – Spain eInvoice Integration: Led the end-to-end development of Amazon’s eInvoicing solution for Spain, managing a team of four SDEs. I was responsible for API and documentation scoping, prototyping, system design, implementation, testing, and launch readiness.",
+            "Operational Excellence Champion: Took ownership of operational health, identifying and addressing the root causes behind our most frequent high-severity tickets. These efforts led to a ~40% reduction in monthly high-severity incidents.",
+            "Load Testing and Performance Optimization: Designed and implemented load testing for our document submission platform, which handled the majority of our eInvoice traffic. This initiative helped uncover performance bottlenecks, increase system supported load, and improve deployment safety."
         ]
     },
     {
@@ -64,20 +55,10 @@
                 "style": "PLAIN"
             }
         ],
-        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "overview": "I began my journey at Amazon as a Software Engineer Intern during my final year of university. Throughout this time, I was given hands-on challenging projects to work on, which gave me a solid understanding of what it was like to work as a full-time Software Development Engineer. My strong performance and high-quality work earned me a full-time offer upon graduation. Some of the key projects I worked on:",
         "bullet_points": [
-            "bullet 1",
-            "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
-        ],
-        "relevant_links": [
-            {
-                "text": "link text 1",
-                "url": "link url"
-            },
-            {
-                "text": "link text 1",
-                "url": "link url"
-            }
+            "3rd-Party API Monitoring System: Designed and built a monitoring solution using AWS that periodically checked the availability of third-party APIs. This acted as an early warning system, helping the team to quickly detect and respond to external API outages",
+            "Turkish eInvoice Auto-Retry Mechanism: Designed and implemented a smart retry mechanism for Turkey’s eInvoice system, automatically handling transient failures based on historical error data. This reduced submission errors by 90% and significantly decreased operational burden"
         ]
     }
   ]

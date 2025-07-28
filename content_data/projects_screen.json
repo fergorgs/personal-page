@@ -1,66 +1,83 @@
 {
   "projectItems": [
     {
-        "job_title": "Petshop Website",
+        "project_title": "CORAA Dataset Project",
         "technologies": [
-            {
-                "text": "Java",
-                "style": "PILL"
-            },
-            {
-                "text": "Kotlin",
-                "style": "PILL"
-            },
             {
                 "text": "Python",
                 "style": "PILL"
             },
             {
-                "text": "AWS",
-                "style": "PILL"
-            },
-            {
-                "text": "TypeScript",
+                "text": "SQL",
                 "style": "PILL"
             }
         ],
-        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "overview": "Worked as a research assistent at the CORAA Dataset Project, an research initiative product of a joint effort between University of São Paulo (USP) and Federal University of Technology of Paraná (UTFPR) that aimed to create a dataset proper for the training of portuguese speech recognition IAs. Its creation is of major importance, given that there are very few datasets of its kind available in portuguese\n\nMy contributions were to pre-process audio and text using Python and SQL to be incorporated into the dataset, as well as to generate statistical analysis about the collect data",
+        "bullet points": [
+            "Published research article: “CORAA: a large corpus of spontaneous and prepared speech manually validated for speech recognition in Brazilian Portuguese”, Language Resources and Evaluation"
+        ],
         "relevant_links": [
             {
-                "text": "link text 1",
-                "url": "link url"
+                "text": "Published article",
+                "url": "https://arxiv.org/abs/2110.15731"
+            },
+            {
+                "text": "Developed python scripts",
+                "url": "https://github.com/fergorgs/CORAA-scripts"
             }
         ]
     },
     {
-        "job_title": "Movie Info App",
+        "project_title": "ProjectEDU",
         "technologies": [
             {
-                "text": "Flutter",
+                "text": "React Native",
                 "style": "PILL"
             },
             {
-                "text": "Dart",
-                "style": "PILL"
-            },
-            {
-                "text": "Python",
-                "style": "PILL"
-            },
-            {
-                "text": "AWS",
-                "style": "PILL"
-            },
-            {
-                "text": "TypeScript",
+                "text": "JavaScript",
                 "style": "PILL"
             }
         ],
-        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "overview": "Worked as a research assistent at the ProjectEDU research, which aimed to build a mobile learning app about Project Management. My contributions were the development of the front-end application, which would poll static content from a remote URL and display it on the screen, allowing for content update with the need for an application update at the user's phone",
+        "bullet points": [
+            "Published research article: “An Analysis of ProjectEdu: A Mobile Learning Application for Software Project Management Education”"
+        ],
         "relevant_links": [
             {
-                "text": "link text 1",
-                "url": "link url"
+                "text": "Published article",
+                "url": "https://link.springer.com/chapter/10.1007/978-3-030-21817-1_4"
+            },
+            {
+                "text": "Project's github",
+                "url": "https://github.com/fergorgs/ProjectEduApp"
+            }
+        ]
+    },
+    {
+        "job_title": "Esportizando",
+        "technologies": [
+            {
+                "text": "React Native",
+                "style": "PILL"
+            },
+            {
+                "text": "JavaScript",
+                "style": "PILL"
+            }
+        ],
+        "overview": "Developed the Esportization mobile app for the 9th edition of the Campus Mobile competition, a nation wide contest from Brazil whose goal is to promote innovative solutions using mobile technology. Taking part in a team of three, our app’s goal was to encourage sports practice in the big cities by building a \"sport's social network\"",
+        "bullet points": [
+            "Finished top 16 in the Smart Cities category"
+        ],
+        "relevant_links": [
+            {
+                "text": "Project's github",
+                "url": "https://github.com/fergorgs/Esportizando"
+            },
+            {
+                "text": "List of 16 finalist",
+                "url": "https://github.com/fergorgs/CORAA-scripts"
             }
         ]
     }
