@@ -17,9 +17,10 @@ function ProjectItem({ item }) {
             <div class="item-description-container">
                 <div data-aos="fade-up">
                 <ItemDescription 
-                    title={item.job_title}  
+                    title={item.project_title}  
                     tags={item.technologies}
                     overview={item.overview}
+                    bulletPoints={item.bullet_points}
                     relevantLinks={item.relevant_links}
                 />
                 </div>
