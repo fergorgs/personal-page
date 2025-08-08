@@ -11,7 +11,7 @@ function ProjectsScreen() {
 
     useEffect(() => {
         Aos.init({duration: 2000, once: true});
-        fetch('https://raw.githubusercontent.com/fergorgs/personal-page/refs/heads/main/public/content_data/projects_screen.json')
+        fetch('/content_data/projects_screen.json')
             .then(res => res.json())
             .then(data => {
                 setProjectItems(data.projectItems)

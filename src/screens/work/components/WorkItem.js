@@ -3,7 +3,6 @@ import { ORIENTATION } from '../../../utils/itemOrientation';
 import ItemDescription from '../../common/ItemDescription';
 import DivisionLine from '../../common/DivisionLine';
 import Picture from '../../common/Picture';
-import amazonImg from '../../../assets/amazon_intern_work_item.png'
 
 function WorkItem({ item, orientation }) {
 

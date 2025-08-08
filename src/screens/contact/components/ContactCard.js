@@ -1,7 +1,6 @@
 import Picture from "../../common/Picture";
 import ContactLink from "./ContactLink";
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
-import profileImg from '../../../assets/profile_img.jpeg'
 
 function ContactCard({ contactInfo }) {
 
@@ -9,14 +8,10 @@ function ContactCard({ contactInfo }) {
     let githubIcon = <FaGithub/>
     let emailIcon = <FaEnvelope/>
 
-    let linkedInInfo = contactInfo.linkedIn
-    let githubInfo = contactInfo.github
-    let emailInfo = contactInfo.email
-
     return (
         <div id="contact-card-container">
             <div id="photo-strip">
-                <Picture containerCssClass={"contact-card-img-container"} imageCssClass={"contact-img"} image={profileImg}/>
+                <Picture containerCssClass={"contact-card-img-container"} imageCssClass={"contact-img"} image={contactInfo.profileImageUrl}/>
                 <div id="contact-card-paragraph-container">
                     <p>{contactInfo.contactParagraph}</p>
                 </div>

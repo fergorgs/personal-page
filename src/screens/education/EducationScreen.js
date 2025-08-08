@@ -14,7 +14,7 @@ function EducationScreen() {
 
     useEffect(() => {
         Aos.init({duration: 2000, once: true});
-        fetch('https://raw.githubusercontent.com/fergorgs/personal-page/refs/heads/main/public/content_data/education_screen.json')
+        fetch('/content_data/education_screen.json')
             .then(res => res.json())
             .then(data => {
                 setEducationItems(data.educationItems)
