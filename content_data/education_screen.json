@@ -2,7 +2,7 @@
   "educationItems": [
         {
             "university": "University of São Paulo (USP)",
-            "image_url": "/assets/usp_logo.png",
+            "image_url": "assets/usp_logo.png",
             "qualifications": [
                 {
                     "title": "Bachelor of Computer Science",
