@@ -1,11 +1,11 @@
 
 function Picture({ containerCssClass, imageCssClass, image }) {
 
-  console.log("image: " + image);
+  const fullImagePath = `${process.env.PUBLIC_URL}/${image}`;
 
   return (
-      <div class={containerCssClass}>
-          <img class={imageCssClass} src={image}/>
+      <div className={containerCssClass}>
+          <img className={imageCssClass} src={fullImagePath}/>
       </div>
   );
 }
