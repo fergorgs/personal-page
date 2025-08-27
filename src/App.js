@@ -28,8 +28,8 @@ function App() {
       <NavBar />
       <WelcomeScreen/>
       <WorkScreen />
-      <ProjectsScreen />
       <EducationScreen />
+      <ProjectsScreen />
       <ContactScreen />
       <Footer />
     </div>

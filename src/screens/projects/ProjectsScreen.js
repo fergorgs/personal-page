@@ -19,7 +19,7 @@ function ProjectsScreen() {
     }, []);
 
     return (
-        <div id="projects-section" class="dark-theme">
+        <div id="projects-section" class="light-theme">
             {/* <div data-aos="fade-in"> */}
                 <ScreenTitle text="Projects"/>
             {/* </div> */}

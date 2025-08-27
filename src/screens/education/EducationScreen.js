@@ -22,7 +22,7 @@ function EducationScreen() {
     }, []);
 
     return (
-        <div id="education-section" class="light-theme">
+        <div id="education-section" class="dark-theme">
             <div data-aos="fade-in">
                 <ScreenTitle text="Education"/>
             </div>

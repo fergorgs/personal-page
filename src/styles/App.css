@@ -74,12 +74,23 @@ body {
 }
 
 .item-description h3 {
-    color: #2f4f4f;
     font-size: 1.3em;
+}
+
+.light-theme .item-description h3 {
+    color: #2f4f4f;
+}
+
+.dark-theme .item-description h3 {
+    color: #0d1c40;
 }
 
 .item-description h4 {
     font-weight: normal
+}
+
+.dark-theme .item-description h4 {
+    color: #F1F8F7;
 }
 
 .item-description-tech-row {
