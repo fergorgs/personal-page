@@ -1,10 +1,18 @@
 {
   "workItems": [
     {
+        "job_title": "Software Engineer",
+        "company": "DoorDash",
+        "location": "São Paulo, Brazil",
+        "duration": "Nov. 2025",
+        "image_url": "assets/doordash_work_item.png",
+        "overview": "I’ve recently joined DoorDash, where I'll be working as a Backend Software Engineer, while contributing to the expansion of the company's new office in São Paulo, Brazil"
+    },
+    {
         "job_title": "Software Dev Engineer I",
         "company": "Amazon",
         "location": "São Paulo, Brazil",
-        "duration": "(2 years) Aug. 2023",
+        "duration": "(2 years, 2 months) Aug. 2023 - Nov. 2025",
         "image_url": "assets/amazon_work_item.jpg",
         "technologies": [
             {
